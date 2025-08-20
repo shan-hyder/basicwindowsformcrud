@@ -84,5 +84,12 @@ namespace newform
             f2.Show();
             this.Hide();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            LoginForm f1 = new LoginForm();
+            f1.Show();
+            this.Hide();
+        }
     }
 }
